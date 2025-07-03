@@ -5,9 +5,9 @@ Este é um projeto de uma página web pessoal, desenvolvido como parte da discip
 
 ## Visualização
 
-Você pode visualizar o projeto em funcionamento através do link abaixo (lembre-se de ativar o GitHub Pages no seu repositório):
+Você pode visualizar o projeto em funcionamento através do link abaixo:
 
-### [Link](https://aindavoucolocar.com)
+### [Link](https://natanael135.github.io/trab-fun-dev-soft/)
 
 ## Funcionalidades
 
