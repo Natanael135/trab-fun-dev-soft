@@ -1,0 +1,136 @@
+:root {
+    --primary: #0077B5;
+    --secondary: #0A2E36;
+    --accent: #FF6F61;
+    --bg: #F8F9FA;
+    --text: #333;
+    --border-color: #ddd;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    padding: 1.25rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 1.25rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0 0 1.25rem 0;
+    font-size: 2.5rem;
+    color: var(--primary);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 0.4rem;
+    /* 5px */
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+}
+
+#sobre p {
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+}
+
+#hobbies ul li {
+    background: #f1f1f1;
+    padding: 0.625rem;
+    border-radius: 5px;
+    margin-bottom: 0.625rem;
+}
+
+#hobbies img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 1.25rem;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.25rem;
+}
+
+table thead {
+    background-color: var(--secondary);
+    color: white;
+}
+
+table th,
+table td {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    text-align: left;
+    vertical-align: middle;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: var(--bg);
+}
+
+table td img {
+    width: 120px;
+    border-radius: 5px;
+}
+
+#msgBtn {
+    display: inline-block;
+    margin: 1.25rem 0 0.625rem;
+    /* 20px 0 10px */
+    padding: 0.75rem 1.5rem;
+    /* 12px 25px */
+    background-color: var(--primary);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#msgBtn:hover {
+    background-color: var(--accent);
+}
+
+#mensagem {
+    margin-top: 1rem;
+    /* 15px */
+    padding: 1rem;
+    /* 15px */
+    background: #eef7ff;
+    border-left: 4px solid var(--primary);
+    border-radius: 4px;
+    font-weight: bold;
+    display: none;
+}
